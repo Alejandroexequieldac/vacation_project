@@ -1,0 +1,135 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+header{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    background-color: #1f2937;
+}
+
+header img{
+    height: 150px;
+    border-radius: 50%;
+    margin-left: 100px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+.ancors, a{
+    display: flex;
+    align-items: center;
+    margin-right: 30px;
+    font-size: 30px;
+    text-decoration: none;
+    color: #f9faf8;
+}
+
+.secone{
+   display: flex;
+   justify-content: space-around;
+   background-color: #1f2937;
+}
+
+.secone img {
+    height: 400px;
+    margin-top: 10px;
+    margin-bottom: 30px;
+    margin-right: 50px;
+}
+
+#stil{
+    display: flex;
+    font-size: 20px;
+    padding: 50px;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: start;
+    color: #f9faf8;
+}
+ button{
+    border: 18px solid #3882f6;
+    border-radius: 15%;
+    background-color: #3882f6;
+    color: #f9faf8;
+    font-size: 18px;
+}
+.viajes{
+    display: flex;
+    margin-bottom: 4%;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+    text-align: justify;
+}
+.vi{
+    margin: 10px;
+    height: 250px;
+    width: 250px;
+    border-radius: 10%;
+    object-fit: cover;
+}
+.tarjet {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    border: 2px solid #3882f6;
+    border-radius: 10%;
+    margin-top: 10px;
+}
+.text{
+    padding: 20px;
+}
+h2 {
+    text-align: center;
+    margin-top: 4%;
+    padding: 20px;
+    font-size: 25px;
+}
+.testimony{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 3%;
+    font-size: 40px;
+    text-align: center;
+    background-color: #e5e7eb;
+}
+h4{
+    margin: 10px;
+}
+.contact{
+display: flex;
+align-items: center;
+justify-content: center;
+justify-content: space-around;
+background-color: #3882f6;
+margin:4%;
+margin-left: 15%;
+margin-right: 15%;
+padding: 3%;
+color: #f9faf8;
+font-size: 20px;
+}
+.button2{
+    border: 1px solid #f9faf8;
+    padding: 1%;
+    border-radius: 15%;
+    color: #f9faf8;
+}
+
+footer{
+    display: flex;
+    height: 10vh;
+    padding: 1%;
+    background-color: #1f2937;
+    justify-content: center;
+    align-items: center;
+    font-size: 18px;
+    color: #f9faf8;
+}
+
